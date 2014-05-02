@@ -28,9 +28,6 @@ URL: http://www.opensource.org/licenses/apache2.0.php
 			<h3>Using property calculation</h3>
 			<p><br/>Additionally, the user can calculate molecular properties using the same input formats as before. This is an example of some available properties</p>
 			<p style="text-align:center;"><img src="<?=$app2base?>static/images/app/property.png" align="center" width="60%"/></p>
-			<h3>Using web services</h3>			
-			<p><br/>All the functionalities mentioned before can be executed through some RESTful web services. To achieve that there are some examples explaining how to build the URI queries.</p>
-			<p style="text-align:center;"><img src="<?=$app2base?>static/images/app/webServices.png" align="center" width="60%"/></p>
 		</section> 
 			
     </div>
