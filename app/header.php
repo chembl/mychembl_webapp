@@ -80,9 +80,7 @@ URL: http://www.opensource.org/licenses/apache2.0.php
 				<ul class="grid_24" id="local-nav">
 					<li class="first"><a href="home.php" title="">Home</a></li>
 					<li><a href="structure.php">Structure Search</a></li>
-	    			<li><a href="ws.php">Web Services</a></li>
 	    			<li><a href="property.php">Property Calculation</a></li>
-	    			<li><a href="activity_cliffs.php">Activity Cliffs</a></li>
 	    			<li><a href="tutorial.php">Tutorial</a></li>
 	    			<li><a href="acknowledgements.php">Acknowledgements</a></li>
 				</ul>

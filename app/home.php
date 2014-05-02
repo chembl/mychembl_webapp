@@ -46,7 +46,6 @@ URL: http://www.opensource.org/licenses/apache2.0.php
 
              <p>
              The myChEMBL web application is used to expose some of the functionality provided by the RDKit Chemical Cartridge. It allows a user to draw or upload a chemical structures, which can then be used in <a href="structure.php">chemical structure searches</a> against the ChEMBL database or in <a href="property.php">chemical property calculations</a>. 
-             Programmatic access to each of these services is also provided through a <a href="ws.php">RESTful Web Service</a>               
              </p>
              
     		 <p style="text-align:center;">
