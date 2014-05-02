@@ -134,8 +134,8 @@ URL: http://www.opensource.org/licenses/apache2.0.php
 						$pact2Score=round($row[pact2],3);
 						$disparityScore=round($row[disparity],3);
 						$dactScore=round($row[dact],3);
-						echo "<td><img src='dispatcher.php/molecule_image/$row[cid1]' width='150' height='150'/><br/><a href='report.php?id=$row[cid1]'>$row[cid1]</a></td>
-						<td><img src='dispatcher.php/molecule_image/$row[cid2]' width='150' height='150'/><br/><a href='report.php?id=$row[cid2]'>$row[cid2]</a></td>
+                                                echo "<td><img src='$ws_base_url/chemblws/compounds/$row[cid1]/image?dimensions=200' width='150' height='150'/><br/><a href='report.php?id=$row[cid1]'>$row[cid1]</a></td>
+                                                <td><img src='$ws_base_url/chemblws/compounds/$row[cid2]/image?dimensions=200' width='150' height='150'/><br/><a href='report.php?id=$row[cid2]'>$row[cid2]</a></td>
 						<td>$disparityScore</td><td>$distScore</td><td>$pact1Score</td><td>$pact2Score</td><td>$dactScore</td>";
 						echo "</tr>";
 	 				

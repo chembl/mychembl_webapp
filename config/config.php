@@ -18,11 +18,12 @@ URL: http://www.opensource.org/licenses/apache2.0.php
   $basedir        = "/var/www/mychembl/";
   $app2base       = "../";
   $tmpdir         = "/tmp";
-  $chembl_version = "ChEMBL_17";
+  $chembl_version = "ChEMBL_18";
+  $ws_base_url    = "";
   
   # Database Settings
-  $db_user = "user"; 
-  $db_name = "chembl_17";
+  $db_user = "chembl"; 
+  $db_name = "chembl_18";
   $db_host = "/var/run/postgresql";
   $db_port = 5432;  
 ?>

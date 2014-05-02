@@ -92,7 +92,7 @@ URL: http://www.opensource.org/licenses/apache2.0.php
                                  <th width='150px'>Name</th>
                                  <td width='550px'>$sum_row[pref_name]</td>
                                  <td rowspan='7' style='text-align:center'>
-                                   <img src='dispatcher.php/molecule_image/$query' width='250' height='250'/>
+                                   <img src='$ws_base_url/chemblws/compounds/$query/image?dimensions=250' width='250' height='250'/>
                                    <br/><a href='https://www.ebi.ac.uk/chembldb/compound/inspect/$query'>ChEMBL website link</a>
                                  </td>
                                </tr>
