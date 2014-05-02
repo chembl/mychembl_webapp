@@ -96,17 +96,17 @@ $(document).ready(function() {
 // Download bioctivity data for compound
 
 $('#btn-download-bioactivity').click(function(){
-    window.location = "/app/dispatcher.php/download_bioactivity/"+ $(this).val();
+    window.location = "/mychembl/app/dispatcher.php/download_bioactivity/"+ $(this).val();
 });
 
 // Download compound search results
 
 $('#btn-download-sss').click(function(){
-    window.location = "/app/dispatcher.php/download_cmpdsearch/sss";
+    window.location = "/mychembl/app/dispatcher.php/download_cmpdsearch/sss";
 });
 
 $('#btn-download-sim').click(function(){
-    window.location = "/app/dispatcher.php/download_cmpdsearch/sim";
+    window.location = "/mychembl/app/dispatcher.php/download_cmpdsearch/sim";
 });
 
 function export_mol(type) {
