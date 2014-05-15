@@ -57,18 +57,6 @@ URL: http://www.opensource.org/licenses/apache2.0.php
 
   <div id="wrapper" class="container_24">
     <header>
-    	<div id="global-masthead" class="masthead grid_24">
-			<p><!-- EMBL-EBI  --><img src="<?=$app2base?>static/images/app/logo-EBI.png" alt="European Bioinformatics Institute"></p>
-			
-			<nav>
-				<ul id="global-nav">
-					<li class="first" id="services"><a href="http://www.rdkit.org" title="Services">RDKit</a></li>
-					<li id="research"><a href="http://ora2pg.darold.net/" title="Research">Ora2Pg</a></li>
-					<li id="training"><a href="http://chembl.blogspot.co.uk/" title="Training">ChEMBL-og</a></li>
-				</ul>
-			</nav>
-			
-		</div>
 		
 		<div id="local-masthead" class="masthead grid_24 nomenu">
 						
