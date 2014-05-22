@@ -93,7 +93,7 @@ URL: http://www.opensource.org/licenses/apache2.0.php
                                  <td width='550px'>$sum_row[pref_name]</td>
                                  <td rowspan='7' style='text-align:center'>
                                    <img src='$ws_base_url/chemblws/compounds/$query/image?dimensions=250' width='250' height='250'/>
-                                   <br/><a href='https://www.ebi.ac.uk/chembldb/compound/inspect/$query'>ChEMBL website link</a>
+                                   <br/><a href='https://www.ebi.ac.uk/chembldb/compound/inspect/$query'>View $query record on ChEMBL Website [External Link]</a>
                                  </td>
                                </tr>
                                <tr>
@@ -204,7 +204,8 @@ URL: http://www.opensource.org/licenses/apache2.0.php
 
 			echo "<br/><h3>$query Bioactivity Data</h3>";
                         echo "<p>";
-                        echo "Maximum of 100 rows displayed in table below<span style='float:right;'><button id='btn-download-bioactivity' value='$query'>Download All Bioactivity Data</button></span>";
+                        echo "Maximum of 100 rows displayed in table below<span style='float:right;'><button id='btn-download-bioactivity' value='$query'>Download All Bioactivity Data</button></span><br/>
+                              ** = External links going to the ChEMBL Website";
 	
 
 			// execute query
@@ -244,11 +245,7 @@ URL: http://www.opensource.org/licenses/apache2.0.php
 			
 			while ($row = pg_fetch_array($result)) {
 					echo "<tr>
-					        <td><a href='https://www.ebi.ac.uk/chembl/assay/inspect/$row[assay_chembl_id]'>$row[assay_chembl_id]</a>
-								<form name='actReport' method='get' action='activity_report.php' class='formulario'>
-								<input type='hidden' name='assay' value='$row[assay_chembl_id]' /> 
-                			<input type='submit' value='Activity Cliffs' />
-								</form>  					        
+					        <td><a href='https://www.ebi.ac.uk/chembl/assay/inspect/$row[assay_chembl_id]'>$row[assay_chembl_id]</a>**					        
 					        </td>
             <td>$row[description]</td>
             <td>$row[assay_type]</td>
@@ -257,11 +254,7 @@ URL: http://www.opensource.org/licenses/apache2.0.php
             <td>$row[standard_value]</td>
             <td>$row[standard_units]</td>
             <td>$row[activity_comment]</td>
-            <td><a href='https://www.ebi.ac.uk/chembl/target/inspect/$row[target_chembl_id]'>$row[target_chembl_id]</a>
-					  <form name='targetReport' method='get' action='target_report.php' class='formulario'>
-                 <input type='hidden' name='target' value='$row[target_chembl_id]' /> 
-                 <input type='submit' value='Activity Cliffs' />
-					  </form>
+            <td><a href='https://www.ebi.ac.uk/chembl/target/inspect/$row[target_chembl_id]'>$row[target_chembl_id]</a>**
             </td>
             <td>$row[pref_name]</td>
      </tr>";
