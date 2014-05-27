@@ -58,7 +58,7 @@ URL: http://www.opensource.org/licenses/apache2.0.php
 				This code is licensed under Version 2.0 of the Open Source Initiative Apache License.<br/>
 				URL: <a href="http://www.opensource.org/licenses/apache2.0.php">http://www.opensource.org/licenses/apache2.0.php</a><br/>
 				<br/>
-				(c) 2012 EMBL European Molecular Biology Laboratories	
+				(c) 2014 EMBL European Molecular Biology Laboratories	
              </p>    
              			
 		</section> 		

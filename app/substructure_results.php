@@ -145,10 +145,10 @@ session_start();
 							$resultCheck = pg_query($db, $checkNTD);
 							$rowNTD=pg_fetch_row($resultCheck);
 							if(empty($rowNTD[0])){
-                                                                echo "<td><img src='$ws_base_url/chemblws/compounds/$row[chembl_id]/image?dimensions=200' width='150' height='150'/><br/>
+                                                                echo "<td><img src='$ws_base_url/chemblws/compounds/$row[chembl_id]/image?dimensions=200' width='200' height='200'/><br/>
 								<a href='report.php?id=$row[chembl_id]'>$row[chembl_id]</a><br/></td>";	
 							}else{
-                                                                echo "<td><img src='$ws_base_url/chemblws/compounds/$row[chembl_id]/image?dimensions=200' width='150' height='150'/><br/>
+                                                                echo "<td><img src='$ws_base_url/chemblws/compounds/$row[chembl_id]/image?dimensions=200' width='200' height='200'/><br/>
                                                                 <a href='report.php?id=$row[chembl_id]'>$row[chembl_id]</a><br/><b>NTD</b><br/></td>";	
 							}
 						    //echo "<td><img src='dispatcher.php/molecule_image/$row[chembl_id]' width='150' height='150'/><br/>
