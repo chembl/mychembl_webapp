@@ -14,7 +14,7 @@ URL: http://www.opensource.org/licenses/apache2.0.php
     
     <div id="global-footer" class="grid_24 clearfix">
       <section id="ebi-footer-meta">
-        <p>EMBL-EBI 2014 | The source code for myChEMBL web application is available on <a href="https://github.com/chembl/mychembl_webapp">github</a><p>
+        <p>EMBL-EBI <?php echo date("Y") ?> | The source code for myChEMBL web application is available on <a href="https://github.com/chembl/mychembl_webapp">github</a><p>
       </section>
     </div>
     
